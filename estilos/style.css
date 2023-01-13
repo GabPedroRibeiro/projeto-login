@@ -16,9 +16,10 @@
 :root{
     --cor0 : #5f2c82;
     --cor1 : #49a09d;
+    --cor2 : #2c2d82;
 }
 html,body{
-    background-color: var(--cor0);
+    background-color: var(--cor2);
     width: 100vw;
     height: 100vh;
 }
@@ -64,11 +65,27 @@ form > div.campo{
     background-color: var(--cor0);
     width: 100%;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 7px;
     margin: 5px 0px;
 }
 div.campo > label{
     display: none;
+}
+div.campo > span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+div.campo input{
+    background-color: #91ebe8;
+    font-size: 1em;
+    width: calc(100% - 44px);
+    height: 100%;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    padding: 5px;
+    transform: translateY(-10px);
 }
 form > input[type=submit]{
     display: block;

@@ -2,15 +2,16 @@
 :root{
     --cor0 : #5f2c82;
     --cor1 : #49a09d;
+    --cor2 : #2c2d82;
 }
 
 @media screen and (min-width: 768px) and (max-width:992px){
     body{
-        background-image: linear-gradient(to top, var(--cor1), var(--cor0) );
+        background-image: linear-gradient(to top, var(--cor1), var(--cor0), var(--cor2) );
     }
     section#login{
         width: 80vw;
-        height: 40vw;
+        height: 35vw;
     }
     section#login > div#imagem{
         float: left;
@@ -26,11 +27,11 @@
 
 @media screen and (min-width:992px){
     body{
-        background-image: linear-gradient(to top, var(--cor1), var(--cor0) );
+        background-image: linear-gradient(to top, var(--cor1), var(--cor0), var(--cor2) );
     }
     section#login{
         width: 950px;
-        height: 70vh;
+        height: 55vh;
     }
     section#login > div#imagem{
         float: right;
