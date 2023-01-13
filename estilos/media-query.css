@@ -10,7 +10,7 @@
     }
     section#login{
         width: 80vw;
-        height: 50vw;
+        height: 40vw;
     }
     section#login > div#imagem{
         float: left;
@@ -30,14 +30,21 @@
     }
     section#login{
         width: 950px;
+        height: 70vh;
     }
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 40%;
         height: 100%;
     }
     section#login > div#formulario{
-        float: right;
+        float: left;
         width: 60%;
+    }
+    div#fomulario > h1{
+        font-size: 2em;
+    }
+    div#formulario > p{
+        font-size: 1.2em;
     }
 }
